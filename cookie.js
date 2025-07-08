@@ -210,7 +210,7 @@ geoConfig: {
        accept: {
     background: '#1177d0 !important',
     color: '#ffffff !important',
-    border: '1px solid #DB7D26 !important',
+    border: '1px solid #1177d0 !important',
     hover: {
         background: '#1177d0 !important',
         color: '#ffffff !important',
