@@ -99,7 +99,7 @@ const config = {
         acceptOnContinue: false,
         showFloatingButton: true,
         showAdminButton: false,
-        floatingButtonPosition: 'left',
+        floatingButtonPosition: 'right',
         adminButtonPosition: 'left',
         bannerPosition: 'left',
         bannerAnimation: {
@@ -814,8 +814,8 @@ const translations = {
         description: "Nous utilisons des cookies pour améliorer votre expérience, fournir des publicités ou du contenu personnalisé et analyser notre trafic. En cliquant sur \"accepter\", vous consentez à l'utilisation de cookies.",
         privacy: "Politique de confidentialité",
         customize: "Personnaliser",
-        reject: "refuser",
-        accept: "accepter",
+        reject: "Refuser",
+        accept: "Accepter",
         essential: "Cookies essentiels",
         essentialDesc: "Nécessaires au fonctionnement",
         analytics: "Cookies d'analyse",
@@ -3038,6 +3038,7 @@ function injectConsentHTML(detectedCookies, language = 'en') {
     .cookie-settings-button.show {
         opacity: 1;
         transform: translateY(0);
+        margin-bottom: 75px;
     }
 
     .cookie-settings-button:hover {
