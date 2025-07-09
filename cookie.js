@@ -3038,7 +3038,7 @@ function injectConsentHTML(detectedCookies, language = 'en') {
     .cookie-settings-button.show {
         opacity: 1;
         transform: translateY(0);
-        margin-bottom: 75px;
+        margin-bottom: 116px;
     }
 
     .cookie-settings-button:hover {
