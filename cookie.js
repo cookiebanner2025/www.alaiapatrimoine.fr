@@ -3466,10 +3466,10 @@ function injectConsentHTML(detectedCookies, language = 'en') {
 /* Desktop-specific floating button */
 @media (min-width: 768px) {
     #cookieFloatingButton {
-        ${config.behavior.floatingButtonPosition === 'left' ? 'left: 66px;' : 'right: 30px;'}
+        ${config.behavior.floatingButtonPosition === 'left' ? 'left: 62px;' : 'right: 30px;'}
+        margin-bottom: 124px;
     }
 }
-
 
 
 
